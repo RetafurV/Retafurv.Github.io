@@ -1,0 +1,14 @@
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    text-align: justify;
+}
+
+p.ol {
+    line-height: 1.2;
+    font-size: 0em;
+}
