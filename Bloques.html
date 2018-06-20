@@ -2,116 +2,164 @@
 <html lang="en">
 
 <head>
-<meta charset="UTF‐8">
-<title>cascada</title>
-<link rel="stylesheet" href="style.css">
-<script src="app.js"></script>
-<style>
+    <meta charset="UTF‐8">
+    <title>cascada</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Edwar</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Estilos en Css -->
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <style>
+        #cabecera {
+            background-color: white;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0
+        }
         
-        #contenido{
-            background-color: lightgrey;
-            width: 300px;
-            border: 25px solid green;
-            padding: 25px;
-            margin: -25px;
-        }
-
-        div .caja{
-            width: 300px;
-            border: 25px solid green;
-            padding: 25px;
-            margin: -25px;
-        }
-        #caja{
+        #contenido {
             padding: 0px;
-            border: 25px solid green;
-            width: 350px;
-            margin-top: 50px;
-            margin-left: 300px;
-            
-        }
-
-        #caja1{
-            padding: 0px;
-            border: 25px solid green;
-            width: 350px;
+            border: 25px solid gray;
+            width: 280px;
             margin-left: 20px;
+            margin-right: 20px;
             margin-top: 50px;
-        }
-
-        #elemento{
-            background-color:white;
             text-align: center;
-            width:100%; 
-            position:fixed; 
-            top:0; 
-            left:0};
-        
-        
-        #cuerpo{
-            border-style: dashed;
-            width:1000px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
-
         
+        div .caja {
+            width: 230px;
+            border: 25px solid gray;
+            padding: 25px;
+            margin: -25px;
+            text-align: justify;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+        table {
+            border-left-style: dashed;
+            border-right-style: dashed;
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+        
+        th {
+            vertical-align: text-top;
+        }
+        
+        footer {
+            align-self: flex-end;
+            line-break: 3;
+            text-align: right;
+            width: 100%
+        }
     </style>
 </head>
 
 <body>
-    <div id="elemento"><h3>Sucedio un dos de febrero</h3>
-    <hr></div>
-    <div id="cuerpo">
-    <table style="border-style: dashed;">
-            <th ><DIV id="caja">GUERRA
-                <div id="contenido">
-                    1943
-                    <hr>Rendición del 6º ejército alemán, que pone fin a la batalla de Stalingrado.
+<!-- men� de navegaci�n -->
+   <div id="cabecera">
+  <nav class="navbar navbar-inverse bg-inverse navbar-toggleable-sm sticky-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="index.html">
+    <img src="images/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="Logo Bootstrap">
+    RETAFURV
+    </a>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <div class="navbar-nav mr-auto ml-auto text-center">
+      <a class="nav-item nav-link active" href="index.html">INICIO</a>
+      <a class="nav-item nav-link" href="carta.html">CARTA</a>
+      <a class="nav-item nav-link" href="Bloques.html">BLOQUES</a>
+      <a class="nav-item nav-link" href="turismo.html">TURISMO</a>
+    </div>
+    <div class="d-flex flex-row justify-content-center">
+      <a href="#" class="btn btn-outline-primary mr-2">F</a>
+      <a href="#" class="btn btn-outline-danger">Y</a>
+    </div>
+    </div>
+  </nav>
+  </div>
+  <!-- fin men� de navegaci�n -->
+    <div id="cabecera">
+        Sucedio un dos de Febrero informacion obtenida en la <a href="https://es.wikipedia.org/wiki/2_de_febrero">wikipedia</a>
+        <hr>
+    </div>
+
+    <table>
+        <tr>
+            <Th>
+                <DIV id="contenido">GUERRA
+                    <div class="caja">
+                        1943
+                        <hr>Rendición del 6º ejército alemán, que pone fin a la batalla de Stalingrado.
+                    </div>
+                    <div class="caja">
+                        1968
+                        <hr>Ejecución sumaria de Nguyen Van Lem, miembro del Viet Cong, inmortalizada por el fotógrafo norteamericano Eddie Adams.
+                    </div>
+                    <div class="caja">
+                        1989
+                        <hr>Las tropas soviéticas abandonan Kabul, en su retirada final de Afganistán.
+                    </div>
+                </DIV>
+            </Th>
+            <th>
+                <div id="contenido"> MUNDO
+                    <div class="caja">
+                        1536
+                        <hr>Pedro de Mendoza funda Buenos Aires, Argentina. En 1542 la ciudad fue abandonada y refundada en 1580 por Juan de Garay.
+                    </div>
+
+                    <div class="caja">
+                        1653
+                        <hr>Nueva Amsterdam, un poblado de colonos holandeses, se convierte oficialmente en municipio. En 1664 la ciudad fue tomada por los ingleses que la rebautizaron con el nombre de Nueva York.
+                    </div>
                 </div>
-                <div class="caja">
-                    1968
-                    <hr>Ejecución sumaria de Nguyen Van Lem, miembro del Viet Cong, inmortalizada por el fotógrafo norteamericano Eddie Adams.
-                </div>
-                <div class="caja">
-                    1989
-                    <hr>Las tropas soviéticas abandonan Kabul, en su retirada final de Afganistán.
-                </div></DIV>
-                <div id="caja">Deportes
-                <div id="contenido" >
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <div id="contenido">DEPORTES
+                    <div class="caja">
                         1977/1987
                         <hr>Nacen la cantante Shakira (1977) y el futbolista Gerad Piqué (1987).
-                </div>
-                <div class="caja">
+                    </div>
+                    <div class="caja">
                         2004
-                        <hr>Roger Federer se convierte en el número 1 de la ATP, posición que mantuvo durante 237 semanas. Cultura 
-                </div></div>
+                        <hr>Roger Federer se convierte en el número 1 de la ATP, posición que mantuvo durante 237 semanas. Cultura
+                    </div>
+                </div>
             </th>
-
-            <th><div id="caja1"> MUNDO
-               <div id="contenido">
-                    1536
-                    <hr>Pedro de Mendoza funda Buenos Aires, Argentina. En 1542 la ciudad fue abandonada y refundada en 1580 por Juan de Garay.
-    
-                </div>
-    
-                <div class="caja1">
-                    1653
-                    <hr>Nueva Amsterdam, un poblado de colonos holandeses, se convierte oficialmente en municipio. En 1664 la ciudad fue tomada por los ingleses que la rebautizaron con el nombre de Nueva York.
-                </div></div>
-                <div id="caja1">CULTURA
-                <div id="contenido">
-                    1987
-                    <hr>Se celebra en Pensilvania el primer día de la marmota. Ese día, granjeros de norteamérica, intentan saber si seguirá el invierno o se adelantará la primavera, basándose en el comportamiento de una marmota. 
-                </div>
-                <div class="caja1">
+            <th>
+                <div id="contenido">CULTURA
+                    <div class="caja">
+                        1987
+                        <hr>Se celebra en Pensilvania el primer día de la marmota. Ese día, granjeros de norteamérica, intentan saber si seguirá el invierno o se adelantará la primavera, basándose en el comportamiento de una marmota.
+                    </div>
+                    <div class="caja">
                         1922
-                        <hr>Se publica en París la novela Ulises, de James Joyce. 
-                </div>
-                <div class="caja1">
+                        <hr>Se publica en París la novela Ulises, de James Joyce.
+                    </div>
+                    <div class="caja">
                         213
                         <hr>Se abre al público en Londres The Shard, el mayor rascacielos de la Unión Europea, de 310 m de altura. Información obtenida en la wikipedia
-                </div></div>
+                    </div>
+                </div>
             </th>
-            </table></div>
- <div id="pie"><a href="Bloques.html">🔄</a></div>
+        </tr>
+    </table>
+
+    <footer><a href="Bloques.html">🔄</a></footer>
+    
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>    
 </body>
-<a
+
+</html>

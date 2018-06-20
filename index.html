@@ -1,25 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
-<head></head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Roberth Edwar</title>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Edwar</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="estilosP.css">
+    <link rel="stylesheet" href="fonts.css">
+    <!-- Estilos en Css -->
+    <style>
+        .slider {
+            background: url("images/bg-1.jpg");
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        #cabecera {
+            background-color: white;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0
+        }
+    </style>
+
+
 </head>
 
 <body>
-    <h1 style="color: #AA2f32; text-align:center; font-family: 'Times New Roman', Times, serif ">Roberth Edwar Tafur Valencia </h1>
-    <a href="Bloques.html">PRACTICA de 6-06-18</a>
-    <p>Estudiante de la UNC,</p>
-    <img src="imagen/descarga.jpg" alt="Universidad Nacional de Cajamarca" title="Universidad Nacional de Cajamarca" />
-    <p>Nacido en Cajamarca</p>
-    <ul>
-        <il>Direccion: jiron Ucayali 231</il>
-        <il>Telefono: 976364552</il>
-    </ul>
+    <!-- menú de navegación -->
+    <div id="cabecera">
+        <nav class="navbar navbar-inverse bg-inverse navbar-toggleable-sm sticky-top">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+            <a class="navbar-brand" href="index.html">
+                <img src="images/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="Logo Bootstrap"> RETAFURV
+            </a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <div class="navbar-nav mr-auto ml-auto text-center">
+                    <a class="nav-item nav-link active" href="index.html">INICIO</a>
+                    <a class="nav-item nav-link" href="carta.html">CARTA</a>
+                    <a class="nav-item nav-link" href="Bloques.html">BLOQUES</a>
+                    <a class="nav-item nav-link" href="turismo.html">TURISMO</a>
+                </div>
+                <div class="d-flex flex-row justify-content-center">
+                    <a href="#" class="btn btn-outline-primary mr-2">F</a>
+                    <a href="#" class="btn btn-outline-danger">Y</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- fin menú de navegación -->
 
+    <div class="social">
+        <ul>
+            <li>
+                <a href="" class="icon-facebook"></a>
+            </li>
+            <li>
+                <a href="" class="icon-twitter"></a>
+            </li>
+            <li>
+                <a href="" class="icon-google-plus"></a>
+            </li>
+            <li>
+                <a href="" class="icon-whatsapp"></a>
+            </li>
+            <li>
+                <a href="" class="icon-youtube"></a>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <!-- imagen principal -->
+
+    <section class="container-fluid slider d-flex justify-content-center align-items-center">
+    </section>
+
+    <!-- fin imagen principal -->
+
+    <!--  card -->
+    <section class="container my-5 py-5">
+        <h3 class="text-uppercase text-center mb-4">Bienvenidos a mi sitio web</h3>
+        <p class="lead text-center mb-5">Soy Roberth Edwar Tafur Valencia Estudiante de Ingenieria de Sistemas que cursa por el ultimo año de la carrera.</p>
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top img-fluid" src="images/cards1.png" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title">ESTUDIOS PRIMARIOS</h4>
+                    <p class="card-text">Los realice en la Institución Educativa San Ramon Nivel Primario Ubicada en el Jr. 13 de Julio de la Ciudad de Cajamarca.</p>
+                    <a class="btn btn-primary" href="#" role="button">Link</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top img-fluid" src="images/cards2.png" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title">Estudios Secundarios</h4>
+                    <p class="card-text">Los realice en la Institución Educativa San Ramon Nivel Secundario Ubicada en el Jr. 13 de Julio de la Ciudad de Cajamarca.</p>
+                    <a class="btn btn-primary" href="#" role="button">Link</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top img-fluid" src="images/cards3.png" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title">Estudios Superiores</h4>
+                    <p class="card-text">Estoy estudiando en la Universidad Nacinal de Cajamarca en la carrera profesional de Ingenieria de Sistemas.</p>
+                    <a class="btn btn-primary" href="#" role="button">Link</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fin Cards -->
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
-
 
 </html>
